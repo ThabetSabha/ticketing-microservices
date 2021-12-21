@@ -9,3 +9,7 @@ it uses Nats Streaming Server as an event bus, Jest for testing, and Stripe for 
 All the services are containerized using Docker, with a Kubernetes cluster to manage them, as for the CI/CD pipeline    
 Github Actions were used to run the tests as well as deploy the cluster to a Digital Ocean server.
 
+
+This project also uses a typescript library to contain & combine the common Erros, Events, and Middlewares used in the    
+various microservices: https://github.com/ThabetSabha/ticketing-project-common-library
+
