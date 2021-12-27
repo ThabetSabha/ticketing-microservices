@@ -1,0 +1,3 @@
+[submodule "ticketing-project-common-library"]
+	path = ticketing-project-common-library
+	url = https://github.com/ThabetSabha/ticketing-project-common-library.git
